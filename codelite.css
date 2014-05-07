@@ -1,0 +1,74 @@
+/*
+	Title:  codelite.css
+	Author: Thomas Nelson
+	Email:  tn90ca@gmail.com
+	Github: Chippers255
+*/
+
+/* Code Box Styling
+---------------------------------------- */
+
+code,pre{
+  font-family:Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace;
+  font-size:14px;
+}
+
+pre{
+  padding:4px 12px;
+  background:#FDFEFB;
+  border-radius:4px;
+  border:1px solid #D7D8C8;
+  overflow:auto;
+  overflow-y:hidden;
+  margin-bottom:32px;
+}
+
+/* Code Styling
+---------------------------------------- */
+
+/* Keyword - Dark Blue Highlighting */
+.kwd {
+  color:#00008b;
+  
+}
+
+/* Plain Text - No Highlighting */
+.pln {
+  color:#000000;
+
+}
+
+/* Comment Text - Light Gray Highlighting */
+.com {
+  color:#808080;
+}
+
+/* Plain Text - No Highlighting */
+.typ {
+  color:#2B91AF;
+}
+
+/* String Text - Maroon Highlighting */
+.str {
+  color:#800000;
+}
+
+/* Character Text - Green Highlighting */
+.chr {
+  color:#008000;
+}
+
+/* Boolean Text - Blue Highlighting */
+.boo {
+  color:#000080;
+}
+
+/* Number Text - Maroon Highlighting */
+.num {
+  color:#800000;
+}
+
+/* Argument Text - Dark Gray Highlighting */
+.arg{
+  color:#555555;
+}
